@@ -16,6 +16,7 @@ jobs:
       matrix:
         arch:
           - platform: linux/amd64
+          - platform: linux/arm64
     steps:
       - uses: actions/checkout@v6
 
